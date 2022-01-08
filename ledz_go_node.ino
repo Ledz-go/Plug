@@ -4,16 +4,14 @@
 #include <ESP8266WebServer.h>
 #include <WiFiUdp.h>
 
-//String ssid = "ledzGO";
-//String psk = "password";
-String ssid = "HUAWEI P20 Pro";
-String psk = "19980927";
+String ssid = "ledzGO";
+String psk = "password";
 
 WiFiUDP Udp;
-IPAddress Master_IP(192,168,43,81);
-IPAddress gateway(192,168,43,81);
+IPAddress Master_IP(192,168,4,1);
+IPAddress gateway(192,168,4,1);
 IPAddress subnet(255,255,255,0);
-IPAddress Broadcast(192,168,43,255);
+IPAddress Broadcast(192,168,4,255);
 unsigned int localPort = 8888;
 
 
